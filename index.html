@@ -37,26 +37,28 @@
         }
 
         ul {
-            list-style-type: none;
-            padding: 0;
+            list-style-type: disc;
+            padding-left: 20px;
         }
 
         li {
             margin-bottom: 10px;
         }
 
-        a {
-            color: #4CAF50;
+        .email {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .email a {
+            color: white;
+            font-weight: bold;
             text-decoration: none;
         }
 
-        a:hover {
+        .email a:hover {
             text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            margin: 20px 0;
         }
     </style>
 </head>
@@ -65,12 +67,17 @@
     <header>
         <h1>Mirela G</h1>
         <h2>Aspiring AI Engineer | Innovator | Problem-Solver</h2>
-        <p>Email: <a href="mailto:mireladaffodilg@gmail.com">mireladaffodilg@gmail.com</a></p>
+        <p class="email">📧 Email: <a href="mailto:mireladaffodilg@gmail.com">mireladaffodilg@gmail.com</a></p>
     </header>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Bachelor of Engineering graduate in Computer Science Engineering with a strong focus on Artificial Intelligence. Skilled in Python, SQL, HTML, and CSS, with a passion for creating AI-driven solutions. Actively learning and seeking opportunities to apply my knowledge in real-world challenges.</p>
+        <ul>
+            <li>Bachelor of Engineering graduate in Computer Science Engineering with a focus on Artificial Intelligence.</li>
+            <li>Skilled in Python, SQL, HTML, and CSS, with a passion for creating AI-driven solutions.</li>
+            <li>Currently enhancing Spanish language skills and exploring AI applications in solving real-world challenges.</li>
+            <li>Actively seeking opportunities to apply my knowledge in a full-time software engineering or AI role.</li>
+        </ul>
     </section>
 
     <section id="education">
@@ -124,15 +131,9 @@
             <li>Spanish: Basic (currently learning)</li>
         </ul>
     </section>
-
-    <footer>
-        <p>&copy; 2024 Mirela G | <a href="#about">Back to Top</a></p>
-    </footer>
 </body>
 
 </html>
-
-
 
 
 
